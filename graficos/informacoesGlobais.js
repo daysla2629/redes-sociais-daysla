@@ -8,11 +8,10 @@ async function visualizarInformacoesGlobais() {
 
         console.log(dados);
         const paragrafo = document.createElement('p')
-  paragrafo.classList.add('graficos-container__texto'
+  paragrafo.classList.add('graficos-container__texto')
 
-  )
-paragrafo.innerHTML = `Hoje, existem cerca de <span> ${dados.total_pessoas_mundo}, conctadas em redes sociais são <span>${dados.total_pessoas_conectadas} da população. Em média, os usúarios passam cerca de <span>${dados.tempo_medio} por dia nessas plataformas.`
-console.log(paragrafo)
+  paragrafo.innerHTML = `Hoje, existem cerca de <span> ${dados.total_pessoas_mundo}, conctadas em redes sociais são <span>${dados.total_pessoas_conectadas} da população. Em média, os usúarios passam cerca de <span>${dados.tempo_medio} por dia nessas plataformas.`
+  console.log(paragrafo)
 
 
 const container = document.getElementById(‘graficos-container’)
