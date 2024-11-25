@@ -10,7 +10,7 @@ async function visualizarInformacoesGlobais() {
     paragrafo.innerHTML = `Hoje, existem cerca de <span>${dados.total_pessoas_mundo}</span>, conctadas em redes sociais são <span>${dados.total_pessoas_conectadas}</span> da população. Em média, os usúarios passam cerca de <span>${dados.tempo_medio}</span> por dia nessas plataformas.`
     console.log(paragrafo)
 
-   const container = document.getElementById(‘graficos-container’)
+   const container = document.getElementById(graficos-container)
    container.appendChild(paragrafo)
 
 
